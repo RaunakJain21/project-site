@@ -3,23 +3,23 @@ import logo from './images/2.png';
 
 function Navbar() {
   return (
-    <div className="">
-    <nav className=" bg-blue-500 border-gray-200 dark:bg-gray-900">
+    <div className="w-screen">
+    <nav className=" w-screen bg-blue-500 border-gray-200 dark:bg-gray-900">
   <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
     <a href="https://flowbite.com/" className="flex items-center">
       <img
         src={logo}
-        className=" h-16 mr-3"
+        className=" md:h-16 h-10 mr-3"
         alt="Flowbite Logo"
       />
-      <span className="self-center text-2xl font-semibold whitespace-nowrap text-white">
+      <span className="self-center text-lg md:text-2xl font-semibold whitespace-nowrap text-white">
         Legal Visions
       </span>
     </a>
     <div className="flex md:order-2">
       <button
         type="button"
-        className="text-white hover:underline text-xl px-4 py-2 text-center mr-3 md:mr-0 "
+        className="text-white hover:underline text-base hidden sm:flex sm:text-xl px-4 py-2 mr-3 md:mr-0 "
       >
         Login/Signup
       </button>
