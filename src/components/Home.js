@@ -33,7 +33,7 @@ function Home() {
 
    <div className=' flex-col flex sm:flex-row mr-8 pb-10'>
     <div className='sm:wid w-11/12 img ml-7 sm:ml-8  mt-10 rounded-b-lg border-4 border-zinc-950'><img className=' h-52' src={quiz}/>
-    <a href='#'><h1 className=' text-2xl p-4 font-semibold hover:underline'>Quiz Game </h1></a>
+    <a href='https://650d218b1817910505c67d8f--spectacular-lebkuchen-e35132.netlify.app/'><h1 className=' text-2xl p-4 font-semibold hover:underline'>Quiz Game </h1></a>
     <p className='text-lg ml-4 mr-4 mb-4'>Here you can play the quiz and win the games.</p>
     </div>
 
